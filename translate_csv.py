@@ -3,7 +3,7 @@ import pandas as pd
 
 # Đặt API key của bạn từ GitHub Secrets
 import os
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 def translate_text(text, target_language="es"):
     """
